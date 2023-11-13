@@ -14,4 +14,4 @@ declare function print(object: any): void;
  * Prints debugging messages, without affecting game's logic.
  * @param {*} object the object to print.
  */
-declare function printErr(object: any): void;
+declare function debug(message:string, object: any): void;
